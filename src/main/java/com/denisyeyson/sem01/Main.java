@@ -1,9 +1,5 @@
 package com.denisyeyson.sem01;
 
-import com.denisyeyson.sem01.exercise.AreaCirculo;
-import com.denisyeyson.sem01.exercise.CalcularIGV;
-import com.denisyeyson.sem01.exercise.FormulaGeneral;
-
 import java.util.Scanner;
 
 public class Main {
@@ -59,7 +55,7 @@ public class Main {
                 System.exit(0);
             }
             default -> System.out.println("Opción no válida");
-        } //hi
+        }
         entrada.close();
     }
 }

@@ -1,4 +1,4 @@
-package com.denisyeyson.sem01.exercise;
+package com.denisyeyson.sem01;
 
 public class FormulaGeneral {
     protected double a, b, c, discriminante;
