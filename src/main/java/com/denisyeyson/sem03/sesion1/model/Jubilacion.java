@@ -8,13 +8,6 @@ public class Jubilacion {
     public Jubilacion() {
     }
 
-    /*
-    public Jubilacion(char sexo, int edad) {
-        this.sexo = sexo;
-        this.edad = edad;
-    }
-    */
-
     public char getSexo() {
         return sexo;
     }
@@ -45,6 +38,9 @@ public class Jubilacion {
     }
 
     public String mostrarMensaje() {
-        return "Edad: " + getEdad() + "\nSexo:" + getSexoDescripcion() + "(" + getSexo() + ")\n" + (esJubilado() ? "La persona puede jubilarse." : "La persona no puede jubilarse.");
+        return "Edad: " + getEdad() +
+                "\nSexo:" + getSexoDescripcion() +
+                "(" + getSexo() + ")\n" +
+                (esJubilado() ? "La persona puede jubilarse." : "La persona no puede jubilarse.");
     }
 }

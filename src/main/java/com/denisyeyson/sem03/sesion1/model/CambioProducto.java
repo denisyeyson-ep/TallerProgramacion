@@ -7,13 +7,6 @@ public class CambioProducto {
     public CambioProducto() {
     }
 
-    /*
-    public CambioProducto(double precioProducto, int numeroDia) {
-        this.precioProducto = precioProducto;
-        this.numeroDia = numeroDia;
-    }
-    */
-
     public double getPrecioProducto() {
         return precioProducto;
     }

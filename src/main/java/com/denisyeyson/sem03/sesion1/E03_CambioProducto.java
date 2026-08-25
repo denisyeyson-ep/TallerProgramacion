@@ -4,7 +4,7 @@ import com.denisyeyson.sem03.sesion1.model.CambioProducto;
 
 import java.util.Scanner;
 
-public class Eje03_CambioProducto {
+public class E03_CambioProducto {
 
     /**
      * Ejercicio 03:
@@ -23,12 +23,11 @@ public class Eje03_CambioProducto {
         System.out.print("Ingrese el precio del producto: S/ ");
         cambioProducto.setPrecioProducto(teclado.nextDouble());
 
-        System.out.print("Ingrese el número del día (1-7): ");
+        System.out.print("Ingrese el número del día (1-7) -> ");
         cambioProducto.setNumeroDia(teclado.nextInt());
 
         System.out.println("\n" + cambioProducto.mostrarMensaje());
 
         teclado.close();
-
     }
 }
