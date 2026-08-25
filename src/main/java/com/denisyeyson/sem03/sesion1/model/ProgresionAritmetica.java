@@ -1,4 +1,4 @@
-package com.denisyeyson.sem03;
+package com.denisyeyson.sem03.sesion1.model;
 
 public class ProgresionAritmetica {
 
@@ -6,14 +6,6 @@ public class ProgresionAritmetica {
 
     public ProgresionAritmetica() {
     }
-
-    /*
-    public ProgresionAritmetica(int numero_1, int numero_2, int numero_3) {
-        this.numero_1 = numero_1;
-        this.numero_2 = numero_2;
-        this.numero_3 = numero_3;
-    }
-    */
 
     public int getNumero_1() {
         return numero_1;
@@ -50,7 +42,7 @@ public class ProgresionAritmetica {
         return (numero_2 - numero_1) == (numero_3 - numero_2);
     }
 
-    public String mostrarResultado() {
+    public String mostrarMensaje() {
         return "Número 1: " + getNumero_1() + "\nNúmero 2: " + getNumero_2() + "\nNúmero 3: " + getNumero_3() + "\n" + (esProgresiva() ? "Los números están en progresión aritmética." : "Los números NO están en progresión aritmética.");
     }
 }

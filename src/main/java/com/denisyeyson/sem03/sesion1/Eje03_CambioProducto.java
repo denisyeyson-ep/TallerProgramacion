@@ -1,10 +1,10 @@
-package com.denisyeyson.sem03.test;
+package com.denisyeyson.sem03.sesion1;
 
-import com.denisyeyson.sem03.CambioProducto;
+import com.denisyeyson.sem03.sesion1.model.CambioProducto;
 
 import java.util.Scanner;
 
-public class Eje03CambioProducto {
+public class Eje03_CambioProducto {
 
     /**
      * Ejercicio 03:
@@ -26,7 +26,7 @@ public class Eje03CambioProducto {
         System.out.print("Ingrese el número del día (1-7): ");
         cambioProducto.setNumeroDia(teclado.nextInt());
 
-        System.out.println("\n" + cambioProducto.mostrarResultado());
+        System.out.println("\n" + cambioProducto.mostrarMensaje());
 
         teclado.close();
 

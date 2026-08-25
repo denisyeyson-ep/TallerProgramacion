@@ -1,4 +1,4 @@
-package com.denisyeyson.sem03;
+package com.denisyeyson.sem03.sesion1.model;
 
 public class CambioProducto {
     protected double precioProducto;
@@ -56,7 +56,7 @@ public class CambioProducto {
                 && numeroDia != 4);
     }
 
-    public String mostrarResultado() {
+    public String mostrarMensaje() {
         return "Día: " + getNumeroDia() + "-" + getNumeroDiaDescripcion() + "\nPrecio: " + getPrecioProducto() + "\n" + (procedeCambio() ? "Procede el cambio del producto." : "No procede el cambio del producto.");
     }
 }

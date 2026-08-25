@@ -1,4 +1,4 @@
-package com.denisyeyson.sem01;
+package com.denisyeyson.sem01.sesion2.model;
 
 public class CalcularIGV {
 
@@ -7,7 +7,14 @@ public class CalcularIGV {
     protected double montoIgv;
     protected double montoNeto;
 
-    public CalcularIGV(double montoTotal) {
+    public CalcularIGV() {
+    }
+
+    public double getMontoTotal() {
+        return montoTotal;
+    }
+
+    public void setMontoTotal(double montoTotal) {
         this.montoTotal = montoTotal;
     }
 
@@ -19,5 +26,9 @@ public class CalcularIGV {
     public double getMontoNeto() {
         this.montoNeto = montoTotal - montoIgv;
         return montoNeto;
+    }
+
+    public String mostrarMensaje() {
+        return "IGV: " + getMontoIgv() + "\nMonto neto: " + getMontoNeto()+"\nMonto a pagar: " + getMontoTotal();
     }
 }

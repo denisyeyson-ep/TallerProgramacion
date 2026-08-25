@@ -1,10 +1,10 @@
-package com.denisyeyson.sem03.test;
+package com.denisyeyson.sem03.sesion1;
 
-import com.denisyeyson.sem03.Jubilacion;
+import com.denisyeyson.sem03.sesion1.model.Jubilacion;
 
 import java.util.Scanner;
 
-public class Eje02Jubilacion {
+public class Eje02_Jubilacion {
 
     /**
      * Ejercicio 02:
@@ -25,7 +25,7 @@ public class Eje02Jubilacion {
         System.out.print("Ingrese edad: ");
         jubilacion.setEdad(teclado.nextInt());
 
-        System.out.println("\n" + jubilacion.mostrarResultado());
+        System.out.println("\n" + jubilacion.mostrarMensaje());
 
         teclado.close();
     }

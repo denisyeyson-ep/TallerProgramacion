@@ -1,4 +1,4 @@
-package com.denisyeyson.sem03;
+package com.denisyeyson.sem03.sesion1.model;
 
 public class Jubilacion {
 
@@ -44,7 +44,7 @@ public class Jubilacion {
         return sexo == 'M' && edad >= 65 || sexo == 'F' && edad >= 60;
     }
 
-    public String mostrarResultado() {
+    public String mostrarMensaje() {
         return "Edad: " + getEdad() + "\nSexo:" + getSexoDescripcion() + "(" + getSexo() + ")\n" + (esJubilado() ? "La persona puede jubilarse." : "La persona no puede jubilarse.");
     }
 }

@@ -1,10 +1,10 @@
-package com.denisyeyson.sem03.test;
+package com.denisyeyson.sem03.sesion1;
 
-import com.denisyeyson.sem03.ProgresionAritmetica;
+import com.denisyeyson.sem03.sesion1.model.ProgresionAritmetica;
 
 import java.util.Scanner;
 
-public class Eje01ProgresionAritmetica {
+public class Eje01_ProgresionAritmetica {
 
     /**
      * Ejercicio 01:
@@ -13,6 +13,7 @@ public class Eje01ProgresionAritmetica {
      */
 
     static void main() {
+
         Scanner teclado = new Scanner(System.in);
         ProgresionAritmetica progresionAritmetica = new ProgresionAritmetica();
 
@@ -27,7 +28,7 @@ public class Eje01ProgresionAritmetica {
         System.out.print("Ingrese el tercer número: ");
         progresionAritmetica.setNumero_3(teclado.nextInt());
 
-        System.out.println("\n" + progresionAritmetica.mostrarResultado());
+        System.out.println("\n" + progresionAritmetica.mostrarMensaje());
 
         teclado.close();
     }
