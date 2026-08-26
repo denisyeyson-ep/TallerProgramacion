@@ -18,11 +18,11 @@ Repositorio académico del curso **Taller de Programación**, desarrollado en Ja
 
 ## Organización académica
 
-| Periodo | Cantidad |
-|---|---:|
-| Semanas | 18 |
-| Sesiones por semana | 2 |
-| Total de sesiones | 36 |
+| Periodo             | Cantidad |
+|---------------------|---------:|
+| Semanas             |       18 |
+| Sesiones por semana |        2 |
+| Total de sesiones   |       36 |
 
 Cada semana utiliza el paquete `semXX` y contiene los paquetes `sesion1` y `sesion2`. Cuando un ejercicio separa responsabilidades, su lógica se guarda dentro de una carpeta `model`.
 
@@ -51,7 +51,7 @@ src/main/java/com/denisyeyson/
 
 ### Semana 1
 
-**Sesión 2 — operaciones y fórmulas matemáticas**
+**Sesión 2 — Introducción al lenguaje de programación Java**
 
 - Conversión de grados centígrados a Fahrenheit.
 - Conversión de dólares a soles.
@@ -61,23 +61,27 @@ src/main/java/com/denisyeyson/
 
 ### Semana 2
 
-**Sesión 1 — operaciones con números**
+**Sesión 1 — Estructuras Secuenciales 1**
 
 - Suma de los dígitos de un número.
 
-**Sesión 2 — cálculos aplicados**
+**Sesión 2 — Estructuras Secuenciales 2**
 
 - Cálculo de la distancia recorrida por la luz.
+- Imprimir una Boleta de Venta
+- Imprimir un boleto de viaje interprovincial.
+- Imprimir una boleta de pago.
+- Imprimir un ticket de operación de un agente bancario.
 
 ### Semana 3
 
-**Sesión 1 — estructuras condicionales**
+**Sesión 1 — Estructura Condicional if-else**
 
 - Progresión aritmética.
 - Evaluación de jubilación según sexo y edad.
 - Evaluación del cambio de un producto.
 
-**Sesión 2 — condicionales dobles y anidadas**
+**Sesión 2 — Estructura Condicional if-else anidada**
 
 - Cálculo de aumento salarial.
 - Conversión y evaluación de horas.
@@ -89,28 +93,34 @@ src/main/java/com/denisyeyson/
 - Cálculos según la paridad de un número.
 - Operaciones matemáticas con condicionales anidadas.
 
+### Semana 4
+
+**Sesión 1 — Estructura Condicional switch-case 1**
+
+**Sesión 2 — Estructura Condicional switch-case 2**
+
 ## Plan de avance
 
-| Semana | Sesión 1 | Sesión 2 | Estado |
-|:---:|:---:|:---:|:---:|
-| 01 | ⬜ | ✅ | En progreso |
-| 02 | ✅ | ✅ | Completada |
-| 03 | ✅ | ✅ | Completada |
-| 04 | ⬜ | ⬜ | Pendiente |
-| 05 | ⬜ | ⬜ | Pendiente |
-| 06 | ⬜ | ⬜ | Pendiente |
-| 07 | ⬜ | ⬜ | Pendiente |
-| 08 | ⬜ | ⬜ | Pendiente |
-| 09 | ⬜ | ⬜ | Pendiente |
-| 10 | ⬜ | ⬜ | Pendiente |
-| 11 | ⬜ | ⬜ | Pendiente |
-| 12 | ⬜ | ⬜ | Pendiente |
-| 13 | ⬜ | ⬜ | Pendiente |
-| 14 | ⬜ | ⬜ | Pendiente |
-| 15 | ⬜ | ⬜ | Pendiente |
-| 16 | ⬜ | ⬜ | Pendiente |
-| 17 | ⬜ | ⬜ | Pendiente |
-| 18 | ⬜ | ⬜ | Pendiente |
+| Semana | Sesión 1 | Sesión 2 |   Estado   |
+|:------:|:--------:|:--------:|:----------:|
+|   01   |    ✅    |    ✅    | Completada |
+|   02   |    ✅    |    ✅    | Completada |
+|   03   |    ✅    |    ✅    | Completada |
+|   04   |    ⬜    |    ⬜    | Pendiente  |
+|   05   |    ⬜    |    ⬜    | Pendiente  |
+|   06   |    ⬜    |    ⬜    | Pendiente  |
+|   07   |    ⬜    |    ⬜    | Pendiente  |
+|   08   |    ⬜    |    ⬜    | Pendiente  |
+|   09   |    ⬜    |    ⬜    | Pendiente  |
+|   10   |    ⬜    |    ⬜    | Pendiente  |
+|   11   |    ⬜    |    ⬜    | Pendiente  |
+|   12   |    ⬜    |    ⬜    | Pendiente  |
+|   13   |    ⬜    |    ⬜    | Pendiente  |
+|   14   |    ⬜    |    ⬜    | Pendiente  |
+|   15   |    ⬜    |    ⬜    | Pendiente  |
+|   16   |    ⬜    |    ⬜    | Pendiente  |
+|   17   |    ⬜    |    ⬜    | Pendiente  |
+|   18   |    ⬜    |    ⬜    | Pendiente  |
 
 **Leyenda:** ✅ con contenido · ⬜ pendiente
 
@@ -126,11 +136,12 @@ src/main/java/com/denisyeyson/
 
 Los archivos utilizan prefijos que permiten identificar su propósito:
 
-| Prefijo | Significado |
-|---|---|
-| `E` | Ejemplo desarrollado durante la sesión |
-| `T` | Tarea o ejercicio propuesto |
-| `TA` | Actividad práctica |
+| Prefijo | Significado                                     |
+|---------|-------------------------------------------------|
+| `E`     | Ejemplo desarrollado durante la sesión          |
+| `A`     | Actividad para practicar                        |
+| `T`     | Tarea o ejercicio propuesto                     |
+| `TA`    | Actividad práctica                              |
 | `model` | Clases que almacenan datos y procesan la lógica |
 
 Por ejemplo, `TA04_02_CalculoRaizPotencia.java` corresponde a la actividad 4.2 sobre el cálculo de raíces y potencias.

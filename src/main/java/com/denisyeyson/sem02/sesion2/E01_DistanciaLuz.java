@@ -1,6 +1,6 @@
-package com.denisyeyson.sem02.sesion2.model;
+package com.denisyeyson.sem02.sesion2;
 
-import com.denisyeyson.sem02.sesion2.DistanciaLuz;
+import com.denisyeyson.sem02.sesion2.model.DistanciaLuz;
 
 import java.util.Scanner;
 
@@ -23,8 +23,7 @@ public class E01_DistanciaLuz {
         System.out.print("Ingrese el número de días -> ");
         distanciaLuz.setDias(teclado.nextInt());
 
-        System.out.printf("%nLa luz recorre en %d día(s): %,d metros.%n", distanciaLuz.getDias(), distanciaLuz.calcularDistancia());
-
+        distanciaLuz.mostrarMensaje();
         teclado.close();
     }
 }

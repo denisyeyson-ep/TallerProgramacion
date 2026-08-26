@@ -1,4 +1,4 @@
-package com.denisyeyson.sem02.sesion2;
+package com.denisyeyson.sem02.sesion2.model;
 
 public class DistanciaLuz {
 
@@ -31,5 +31,9 @@ public class DistanciaLuz {
     public long calcularDistancia() {
         this.distancia = VELOCIDAD_LUZ * calcularSegundos();
         return distancia;
+    }
+
+    public void mostrarMensaje() {
+        System.out.printf("%nLa luz recorre en %d día(s): %,d metros.%n", getDias(), calcularDistancia());
     }
 }

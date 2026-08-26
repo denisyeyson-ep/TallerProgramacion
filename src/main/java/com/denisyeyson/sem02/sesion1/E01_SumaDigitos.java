@@ -7,6 +7,13 @@ public class E01_SumaDigitos {
         Scanner teclado = new Scanner(System.in);
         SumaDigitos suma = new SumaDigitos();
 
+        System.out.println("SUMA DE DÍGITOS:");
+
+        System.out.print("Ingrese el numero -> ");
+        suma.setNumero(teclado.nextInt());
+
+        suma.mostrarMensaje();
+
         teclado.close();
     }
 }
