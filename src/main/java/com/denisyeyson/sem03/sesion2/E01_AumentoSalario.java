@@ -32,13 +32,14 @@ public class E01_AumentoSalario {
         System.out.print("Ingrese sexo Masculino(M), Femenino(F) -> ");
         salario.setSexo(teclado.nextLine().toUpperCase().charAt(0));
 
-        System.out.println("Ingrese el sector de la empresa");
+        System.out.println("Sectores de la empresa:");
         System.out.println(" E: Educación");
         System.out.println(" S: Salud");
         System.out.println(" T: Transporte");
+        System.out.print("Ingrese el sector de la empresa -> ");
         salario.setSector(teclado.nextLine().toUpperCase().charAt(0));
 
-        System.out.println("\n" + salario.mostrarMensaje());
+        salario.mostrarMensaje();
 
         teclado.close();
     }

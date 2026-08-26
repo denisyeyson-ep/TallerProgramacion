@@ -2,9 +2,9 @@ package com.denisyeyson.sem03.sesion2.model;
 
 public class AumentoSalario {
 
-    protected final double SALARIO_SALUD = 15000;
-    protected final double SALARIO_EDUCACION = 12000;
-    protected final double SALARIO_TRANSPORTE = 18000;
+    private final double SALARIO_SALUD = 15000;
+    private final double SALARIO_EDUCACION = 12000;
+    private final double SALARIO_TRANSPORTE = 18000;
     protected char sexo;
     protected char sector;
 
@@ -61,11 +61,11 @@ public class AumentoSalario {
         }
     }
 
-    public String mostrarMensaje() {
-        return "Sexo: " + getSexoDescripcion() + "(" + getSexo() +
-                ")\nSector: " + getSectorDescripcion() + "(" + getSector() +
-                ")\nSalario: " + getSalarioSector() +
-                "\nAumento: " + (calcularAumento(getSexo(), getSector())-getSalarioSector())+
-                "\nSalario a pagar: " + calcularAumento(getSexo(), getSector());
+    public void mostrarMensaje() {
+        System.out.println("\nSexo: " + getSexoDescripcion() + "(" + getSexo()
+                        + ")\nSector: " + getSectorDescripcion() + "(" + getSector()
+                        + ")\nSalario: " + getSalarioSector()
+                        + "\nAumento: " + (calcularAumento(getSexo(), getSector()) - getSalarioSector())
+                        + "\nSalario a pagar: " + calcularAumento(getSexo(), getSector()));
     }
 }
