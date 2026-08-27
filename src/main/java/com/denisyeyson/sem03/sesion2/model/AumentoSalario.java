@@ -62,10 +62,16 @@ public class AumentoSalario {
     }
 
     public void mostrarMensaje() {
-        System.out.println("\nSexo: " + getSexoDescripcion() + "(" + getSexo()
-                        + ")\nSector: " + getSectorDescripcion() + "(" + getSector()
-                        + ")\nSalario: " + getSalarioSector()
-                        + "\nAumento: " + (calcularAumento(getSexo(), getSector()) - getSalarioSector())
-                        + "\nSalario a pagar: " + calcularAumento(getSexo(), getSector()));
+        if (sexo != 'M' && sexo != 'F') {
+            System.err.println("Opción de sexo invalida.");
+        } else if (sector != 'S' && sector != 'E' && sector != 'T') {
+            System.err.println("Sector invalido.");
+        } else {
+            System.out.println("\nSexo: " + getSexoDescripcion() + "(" + getSexo()
+                    + ")\nSector: " + getSectorDescripcion() + "(" + getSector()
+                    + ")\nSalario: " + getSalarioSector()
+                    + "\nAumento: " + (calcularAumento(getSexo(), getSector()) - getSalarioSector())
+                    + "\nSalario a pagar: " + calcularAumento(getSexo(), getSector()));
+        }
     }
 }
