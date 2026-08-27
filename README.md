@@ -51,6 +51,10 @@ src/main/java/com/denisyeyson/
 
 ## Contenido actual
 
+| Semama y sesión | Tema                                     | Código                                                                          |
+|-----------------|------------------------------------------|---------------------------------------------------------------------------------|
+| 01.02           | Introduccion al lenguaje de programacion | [Ver código](src/main/java/com/denisyeyson/sem03/sesion2/E02_CalcularHora.java) |
+
 ### Semana 1
 
 **Sesión 2 — Introducción al lenguaje de programación Java**
