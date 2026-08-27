@@ -1,5 +1,5 @@
 {
-  "name": "Java 25",
+  "name": "Taller Programación - Java 25",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
   "features": {
@@ -11,9 +11,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "redhat.java",
-        "vscjava.vscode-java-pack",
-        "vscjava.vscode-java-debug"
+        "vscjava.vscode-java-pack"
       ],
       "settings": {
         "java.configuration.updateBuildConfiguration": "automatic"
