@@ -66,11 +66,11 @@ src/main/java/com/denisyeyson/
 
 | Sesión | Ejercicio                                     | Código                                                                                                                                                                                    |
 |:-------|:----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 02.01  | Conversión de grados centígrados a Fahrenheit | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/CentigradosFahrenheit.java), [Abrir Main](src/main/java/com/denisyeyson/sem01/sesion2/E01_CentigradosFahrenheit.java) |
-| 02.02  | Conversión de dólares a soles                 | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/DolaresSoles.java), [Abrir Main](src/main/java/com/denisyeyson/sem01/sesion2/E02_DolaresSoles.java)                   |
-| 02.03  | Cálculo del área de un círculo                | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/AreaCirculo.java), [Abrir Main](src/main/java/com/denisyeyson/sem01/sesion2/T01_AreaCirculo.java)                     |
-| 02.04  | Aplicación de la fórmula general              | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/FormulaGeneral.java), [Abrir Main](src/main/java/com/denisyeyson/sem01/sesion2/T02_FormulaGeneral.java)               |
-| 02.05  | Cálculo del IGV                               | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/CalcularIGV.java), [Abrir Main](src/main/java/com/denisyeyson/sem01/sesion2/T03_CalcularIGV.java)                     |
+| 02.01  | Conversión de grados centígrados a Fahrenheit | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/CentigradosFahrenheit.java), [Abrir main](src/main/java/com/denisyeyson/sem01/sesion2/E01_CentigradosFahrenheit.java) |
+| 02.02  | Conversión de dólares a soles                 | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/DolaresSoles.java), [Abrir main](src/main/java/com/denisyeyson/sem01/sesion2/E02_DolaresSoles.java)                   |
+| 02.03  | Cálculo del área de un círculo                | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/AreaCirculo.java), [Abrir main](src/main/java/com/denisyeyson/sem01/sesion2/T01_AreaCirculo.java)                     |
+| 02.04  | Aplicación de la fórmula general              | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/FormulaGeneral.java), [Abrir main](src/main/java/com/denisyeyson/sem01/sesion2/T02_FormulaGeneral.java)               |
+| 02.05  | Cálculo del IGV                               | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/CalcularIGV.java), [Abrir main](src/main/java/com/denisyeyson/sem01/sesion2/T03_CalcularIGV.java)                     |
 
 [Volver al contenido](#contenido)
 
@@ -78,14 +78,14 @@ src/main/java/com/denisyeyson/
 
 **Estructuras secuenciales**
 
-| Sesión  | Ejercicio                                    | Código                                                                                                                                                                  |
-|:--------|:---------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 01.01   | Suma de los dígitos de un número             | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion1/SumaDigitos.java), [Abrir Main](src/main/java/com/denisyeyson/sem02/sesion1/E01_SumaDigitos.java)         |
-| 02.01   | Cálculo de la distancia recorrida por la luz | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/DistanciaLuz.java), [Abrir Main](src/main/java/com/denisyeyson/sem02/sesion2/E01_DistanciaLuz.java) | |
-| 02.02   | Imprimir una boleta de venta                 | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/BoletaVenta.java), [Abrir Main](src/main/java/com/denisyeyson/sem02/sesion2/E02_BoletaVenta.java)   |
-| 02.03   | Imprimir un boleto de viaje interprovincial  | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/BoletoViaje.java)                                                                                   |
-| 02.04   | Imprimir una boleta de pago                  | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/BoletaPago.java)                                                                                    |
-| 02.05   | Imprimir un ticket de operación bancaria     | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/TicketBancario.java)                                                                                |
+| Sesión | Ejercicio                                    | Código                                                                                                                                                                  |
+|:-------|:---------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 01.01  | Suma de los dígitos de un número             | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion1/SumaDigitos.java), [Abrir Main](src/main/java/com/denisyeyson/sem02/sesion1/E01_SumaDigitos.java)         |
+| 02.01  | Cálculo de la distancia recorrida por la luz | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/DistanciaLuz.java), [Abrir Main](src/main/java/com/denisyeyson/sem02/sesion2/E01_DistanciaLuz.java) | |
+| 02.02  | Imprimir una boleta de venta                 | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/BoletaVenta.java), [Abrir Main](src/main/java/com/denisyeyson/sem02/sesion2/E02_BoletaVenta.java)   |
+| 02.03  | Imprimir un boleto de viaje interprovincial  | [Abrir main](src/main/java/com/denisyeyson/sem02/sesion2/A01_BoletoViaje.java)                                                                                          |
+| 02.04  | Imprimir una boleta de pago                  | [Abrir main](src/main/java/com/denisyeyson/sem02/sesion2/A02_BoletaPago.java)                                                                                           |
+| 02.05  | Imprimir un ticket de operación bancaria     | [Abrir main](src/main/java/com/denisyeyson/sem02/sesion2/A03_TicketAgenteBancario.java)                                                                                 |
 
 [Volver al contenido](#contenido)
 
@@ -95,18 +95,18 @@ src/main/java/com/denisyeyson/
 
 | Sesión | Ejercicio                                          | Código                                                                                                                                                                                         |
 |:-------|:---------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| S03.01 | Progresión aritmética                              | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/ProgresionAritmetica.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion1/E01_ProgresionAritmetica.java)        |
-| S03.01 | Evaluación de jubilación según sexo y edad         | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/Jubilacion.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion1/E02_Jubilacion.java)                            |
-| S03.01 | Evaluación del cambio de un producto               | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/CambioProducto.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion1/E03_CambioProducto.java)                    |
-| S03.02 | Cálculo de aumento salarial                        | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/AumentoSalario.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/E01_AumentoSalario.java)                    |
-| S03.02 | Conversión y evaluación de horas                   | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalcularHora.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/E02_CalcularHora.java)                        |
-| S03.02 | Descuento de una compra                            | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/DescuentoCompra.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/T01_DescuentoCompra.java)                  |
-| S03.02 | Operación bancaria                                 | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/OperacionBancaria.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/T02_OperacionBancaria.java)              |
-| S03.02 | Resultado de una evaluación                        | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/ResultadoEvaluacion.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/T03_ResultadoEvaluacion.java)          |
-| S03.02 | Evaluación de un número positivo y par             | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/NumeroPositivoPar.java) , [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/T04_01_NumeroPositivoPar.java)          |
-| S03.02 | Raíz y potencia con la clase `Math`                | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalculoRaizPotencia.java) ,[Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/T04_02_CalculoRaizPotencia.java)       |
-| S03.02 | Cálculos según la paridad de un número             | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalculoNumero.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/T04_03_CalculoNumero.java)                   |
-| S03.02 | Operaciones matemáticas con condicionales anidadas | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/OperacionesMatematicas.java), [Abrir Main](src/main/java/com/denisyeyson/sem03/sesion2/T04_04_OperacionesMatematicas.java) |
+| 01.01  | Progresión aritmética                              | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/ProgresionAritmetica.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion1/E01_ProgresionAritmetica.java)        |
+| 01.02  | Evaluación de jubilación según sexo y edad         | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/Jubilacion.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion1/E02_Jubilacion.java)                            |
+| 01.03  | Evaluación del cambio de un producto               | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/CambioProducto.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion1/E03_CambioProducto.java)                    |
+| 02.01  | Cálculo de aumento salarial                        | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/AumentoSalario.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/E01_AumentoSalario.java)                    |
+| 02.02  | Conversión y evaluación de horas                   | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalcularHora.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/E02_CalcularHora.java)                        |
+| 02.03  | Descuento de una compra                            | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/DescuentoCompra.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/T01_DescuentoCompra.java)                  |
+| 02.04  | Operación bancaria                                 | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/OperacionBancaria.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/T02_OperacionBancaria.java)              |
+| 02.05  | Resultado de una evaluación                        | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/ResultadoEvaluacion.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/T03_ResultadoEvaluacion.java)          |
+| 02.06  | Evaluación de un número positivo y par             | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/NumeroPositivoPar.java) , [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/T04_01_NumeroPositivoPar.java)          |
+| 02.07  | Raíz y potencia con la clase `Math`                | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalculoRaizPotencia.java) ,[Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/T04_02_CalculoRaizPotencia.java)       |
+| 02.08  | Cálculos según la paridad de un número             | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalculoNumero.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/T04_03_CalculoNumero.java)                   |
+| 02.09  | Operaciones matemáticas con condicionales anidadas | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/OperacionesMatematicas.java), [Abrir main](src/main/java/com/denisyeyson/sem03/sesion2/T04_04_OperacionesMatematicas.java) |
 
 [Volver al contenido](#contenido)
 
