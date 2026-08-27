@@ -5,7 +5,9 @@
 ![Estado](https://img.shields.io/badge/estado-en_desarrollo-yellow)
 ![Semanas](https://img.shields.io/badge/plan-18_semanas-red)
 
-Repositorio académico del curso **Taller de Programación**, desarrollado en Java como parte de mi formación en Ingeniería de Software. Aquí se organizan los ejemplos, ejercicios y tareas realizados durante las **18 semanas del curso**, con **2 sesiones por semana** y un total planificado de **36 sesiones**.
+Repositorio académico del curso **Taller de Programación**, desarrollado en Java como parte de mi formación en
+Ingeniería de Software. Aquí se organizan los ejemplos, ejercicios y tareas realizados durante las **18 semanas del
+curso**, con **2 sesiones por semana** y un total planificado de **36 sesiones**.
 
 [![Abrir en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/denisyeyson-ep/TallerProgramacion)
 
@@ -26,7 +28,8 @@ Repositorio académico del curso **Taller de Programación**, desarrollado en Ja
 | Sesiones por semana |        2 |
 | Total de sesiones   |       36 |
 
-Cada semana utiliza el paquete `semXX` y contiene los paquetes `sesion1` y `sesion2`. Cuando un ejercicio separa responsabilidades, su lógica se guarda dentro de una carpeta `model`.
+Cada semana utiliza el paquete `semXX` y contiene los paquetes `sesion1` y `sesion2`. Cuando un ejercicio separa
+responsabilidades, su lógica se guarda dentro de una carpeta `model`.
 
 ```text
 src/main/java/com/denisyeyson/
@@ -49,61 +52,71 @@ src/main/java/com/denisyeyson/
 
 > Las carpetas de las semanas futuras se agregarán conforme avance el curso.
 
-## Contenido actual
+## Contenido
 
-| Semama y sesión | Tema                                     | Código                                                                          |
-|-----------------|------------------------------------------|---------------------------------------------------------------------------------|
-| 01.02           | Introduccion al lenguaje de programacion | [Ver código](src/main/java/com/denisyeyson/sem03/sesion2/E02_CalcularHora.java) |
+- [Semana 1: Introducción al lenguaje de programación Java](#semana-1)
+- [Semana 2: Estructuras secuenciales](#semana-2)
+- [Semana 3: Estructura condicional `if-else`](#semana-3)
+
+## Ejercicios
 
 ### Semana 1
 
-**Sesión 2 — Introducción al lenguaje de programación Java**
+**Introducción al lenguaje de programación Java**
 
-- Conversión de grados centígrados a Fahrenheit.
-- Conversión de dólares a soles.
-- Cálculo del área de un círculo.
-- Aplicación de la fórmula general.
-- Cálculo del IGV.
+| Sesión | Ejercicio                                     |                                             Código                                              |
+|:-------|:----------------------------------------------|:-----------------------------------------------------------------------------------------------:|
+| S01.02 | Conversión de grados centígrados a Fahrenheit | [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/CentigradosFahrenheit.java) |
+| S01.02 | Conversión de dólares a soles                 |     [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/DolaresSoles.java)      |
+| S01.02 | Cálculo del área de un círculo                |      [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/AreaCirculo.java)      |
+| S01.02 | Aplicación de la fórmula general              |    [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/FormulaGeneral.java)     |
+| S01.02 | Cálculo del IGV                               |      [Abrir ejercicio](src/main/java/com/denisyeyson/sem01/sesion2/model/CalcularIGV.java)      |
+
+[Volver al contenido](#contenido)
 
 ### Semana 2
 
-**Sesión 1 — Estructuras Secuenciales 1**
+**Estructuras secuenciales**
 
-- Suma de los dígitos de un número.
+| Sesión | Ejercicio                                    |                                          Código                                          |
+|:-------|:---------------------------------------------|:----------------------------------------------------------------------------------------:|
+| S02.01 | Suma de los dígitos de un número             |     [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion1/SumaDigitos.java)      |
+| S02.02 | Cálculo de la distancia recorrida por la luz |  [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/DistanciaLuz.java)  |
+| S02.02 | Imprimir una boleta de venta                 |  [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/BoletaVenta.java)   |
+| S02.02 | Imprimir un boleto de viaje interprovincial  |  [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/BoletoViaje.java)   |
+| S02.02 | Imprimir una boleta de pago                  |   [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/BoletaPago.java)   |
+| S02.02 | Imprimir un ticket de operación bancaria     | [Abrir ejercicio](src/main/java/com/denisyeyson/sem02/sesion2/model/TicketBancario.java) |
 
-**Sesión 2 — Estructuras Secuenciales 2**
-
-- Cálculo de la distancia recorrida por la luz.
-- Imprimir una Boleta de Venta
-- Imprimir un boleto de viaje interprovincial.
-- Imprimir una boleta de pago.
-- Imprimir un ticket de operación de un agente bancario.
+[Volver al contenido](#contenido)
 
 ### Semana 3
 
-**Sesión 1 — Estructura Condicional if-else**
+**Estructura condicional `if-else`**
 
-- Progresión aritmética.
-- Evaluación de jubilación según sexo y edad.
-- Evaluación del cambio de un producto.
+| Sesión | Ejercicio                                          |                                              Código                                              |
+|:-------|:---------------------------------------------------|:------------------------------------------------------------------------------------------------:|
+| S03.01 | Progresión aritmética                              |  [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/ProgresionAritmetica.java)  |
+| S03.01 | Evaluación de jubilación según sexo y edad         |       [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/Jubilacion.java)       |
+| S03.01 | Evaluación del cambio de un producto               |     [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/model/CambioProducto.java)     |
+| S03.02 | Cálculo de aumento salarial                        |     [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/AumentoSalario.java)     |
+| S03.02 | Conversión y evaluación de horas                   |      [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalcularHora.java)      |
+| S03.02 | Descuento de una compra                            |    [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/DescuentoCompra.java)     |
+| S03.02 | Operación bancaria                                 |   [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/OperacionBancaria.java)    |
+| S03.02 | Resultado de una evaluación                        |  [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/ResultadoEvaluacion.java)   |
+| S03.02 | Evaluación de un número positivo y par             |   [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/NumeroPositivoPar.java)    |
+| S03.02 | Raíz y potencia con la clase `Math`                |  [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalculoRaizPotencia.java)   |
+| S03.02 | Cálculos según la paridad de un número             |     [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/CalculoNumero.java)      |
+| S03.02 | Operaciones matemáticas con condicionales anidadas | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion2/model/OperacionesMatematicas.java) |
 
-**Sesión 2 — Estructura Condicional if-else anidada**
-
-- Cálculo de aumento salarial.
-- Conversión y evaluación de horas.
-- Descuento de una compra.
-- Operación bancaria.
-- Resultado de una evaluación.
-- Evaluación de un número positivo y par.
-- Cálculo de raíz y potencia con la clase `Math`.
-- Cálculos según la paridad de un número.
-- Operaciones matemáticas con condicionales anidadas.
+[Volver al contenido](#contenido)
 
 ### Semana 4
 
-**Sesión 1 — Estructura Condicional switch-case 1**
+**Estructura Condicional switch-case**
 
-**Sesión 2 — Estructura Condicional switch-case 2**
+| Sesión | Ejercicio             |                                            Código                                            |
+|:-------|:----------------------|:--------------------------------------------------------------------------------------------:|
+| S04.01 | Progresión aritmética | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/E01_ProgresionAritmetica.java) |
 
 ## Plan de avance
 
@@ -195,4 +208,5 @@ Estudiante de Ingeniería de Software — Universidad Tecnológica del Perú
 
 ---
 
-Este repositorio se actualizará durante las 18 semanas del curso a medida que se desarrollen nuevas sesiones, ejercicios y actividades.
+Este repositorio se actualizará durante las 18 semanas del curso a medida que se desarrollen nuevas sesiones, ejercicios
+y actividades.
