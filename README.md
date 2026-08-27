@@ -7,6 +7,8 @@
 
 Repositorio académico del curso **Taller de Programación**, desarrollado en Java como parte de mi formación en Ingeniería de Software. Aquí se organizan los ejemplos, ejercicios y tareas realizados durante las **18 semanas del curso**, con **2 sesiones por semana** y un total planificado de **36 sesiones**.
 
+[![Abrir en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/denisyeyson-ep/TallerProgramacion)
+
 ## Objetivos
 
 - Practicar los fundamentos de programación con Java.
