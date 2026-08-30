@@ -57,6 +57,7 @@ src/main/java/com/denisyeyson/
 - [Semana 1: Introducción al lenguaje de programación Java](#semana-1)
 - [Semana 2: Estructuras secuenciales](#semana-2)
 - [Semana 3: Estructura condicional `if-else`](#semana-3)
+- [Semana 4: Estructura Condicional `switch-case`](#semana-4)
 
 ## Ejercicios
 
@@ -112,11 +113,13 @@ src/main/java/com/denisyeyson/
 
 ### Semana 4
 
-**Estructura Condicional switch-case**
+**Estructura Condicional `switch-case`**
 
-| Sesión | Ejercicio             |                                            Código                                            |
-|:-------|:----------------------|:--------------------------------------------------------------------------------------------:|
-| 01.01  | Progresión aritmética | [Abrir ejercicio](src/main/java/com/denisyeyson/sem03/sesion1/E01_ProgresionAritmetica.java) |
+| Sesión | Ejercicio                |                                         Código                                         |
+|:-------|:-------------------------|:--------------------------------------------------------------------------------------:|
+| 01.01  | Evaluación de postulante |  [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E01_EvaluarPostulante.java)  |
+| 01.02  | Conversion de monedas    | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E02_CotizacionDolarEuro.java) |
+
 
 ## Plan de avance
 
@@ -125,7 +128,7 @@ src/main/java/com/denisyeyson/
 |   01   |    ✅    |    ✅    | Completada |
 |   02   |    ✅    |    ✅    | Completada |
 |   03   |    ✅    |    ✅    | Completada |
-|   04   |    ⬜    |    ⬜    | Pendiente  |
+|   04   |    ✅    |    ✅    | Completada |
 |   05   |    ⬜    |    ⬜    | Pendiente  |
 |   06   |    ⬜    |    ⬜    | Pendiente  |
 |   07   |    ⬜    |    ⬜    | Pendiente  |
