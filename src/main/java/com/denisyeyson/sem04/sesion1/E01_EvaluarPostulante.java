@@ -21,7 +21,7 @@ public class E01_EvaluarPostulante {
         int puntuacion;
         //En esta variable almacenaremos la descripcion de la evaluación, según el rango de valores
         String descripcionEvaluacion;
-
+        System.out.println(1/3);
         System.out.println("EJERCICIO - EVALUACIÓN DE POSTULANTE:");
         System.out.print("Ingrese la puntuación del candidato (0-10): ");
         puntuacion = entrada.nextInt();

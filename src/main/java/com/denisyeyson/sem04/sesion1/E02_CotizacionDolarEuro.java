@@ -19,47 +19,51 @@ public class E02_CotizacionDolarEuro {
 
         System.out.println("CONVERSION DE MONEDAS:");
 
-        System.out.println("""
+        System.out.print("""
                 Ingrese la moneda de origen:
                 - (D)Dólar
                 - (E)Euro
                 - (S)Soles
-                """);
+                ->\s""");
         monedaOrigen = entrada.next().toUpperCase().charAt(0);
         entrada.nextLine();
 
-        System.out.println("""
+        System.out.print("""
                 Ingrese la moneda de destino:
                 - (D)Dólar
                 - (E)Euro
                 - (S)Soles
-                """);
+                ->\s""");
         monedaDestino = entrada.next().toUpperCase().charAt(0);
         entrada.nextLine();
 
-        System.out.println("Ingrese el monto a convertir:");
-        montoIngresado = entrada.nextDouble();
+        System.out.print("Ingrese el monto a convertir: ");
+        montoIngresado = entrada.nextFloat();
         entrada.nextLine();
 
-        montoConvertido = switch (String.valueOf(monedaOrigen + monedaDestino)) {
+        //Concatena las dos monedas y evalúa la conversion
+        montoConvertido = switch (monedaOrigen + String.valueOf(monedaDestino)) {
             case "DS" -> montoIngresado * 3.82;//Conversion de Dólar a Soles
-            case "DE" -> montoIngresado * 4.17;//Conversion de Dólar a Euro
+            case "ES" -> montoIngresado * 4.17;//Conversion de Euro a Soles
             case "SD" -> montoIngresado / 3.82;//Conversion de Soles a Dólar
             case "SE" -> montoIngresado / 4.17;//Conversion de Soles a Euro
-            case "ES" -> montoIngresado * 0.86;//Conversion de Euro a Soles
-            case "ED" -> montoIngresado * 1.14;//Conversion de Euro a Dólar
+            case "DE" -> (montoIngresado * 3.82) / 4.17;//Conversion de Dólar a Euro
+            case "ED" -> (montoIngresado * 4.17) / 3.82;//Conversion de Euro a Dólar
             default -> 0.00;
         };
 
-        System.out.printf("El monto de %s es de %s soles.Modena%s", montoIngresado, montoConvertido,getMoneda(monedaDestino));
+        System.out.printf("\nMonto de ingreso ->\t: %s\nMonto convertido ->\t: %s\n", getMoneda(monedaOrigen, montoIngresado), getMoneda(monedaDestino, montoConvertido));
 
+        entrada.close();
     }
 
-    public static String getMoneda(char moneda) {
+    //Obtiene la descripción de la moneda y su símbolo con el monto redondeado
+    public static String getMoneda(char moneda, double monto) {
+        monto = (double) Math.round(monto * 100) / 100;
         return switch (moneda) {
-            case 'D' -> "Dólares";
-            case 'E' -> "Euros";
-            case 'S' -> "Soles";
+            case 'D' -> "Dólares($/." + monto + ")";
+            case 'E' -> "Euros(Є/." + monto + ")";
+            case 'S' -> "Soles(S/." + monto + ")";
             default -> "";
         };
     }

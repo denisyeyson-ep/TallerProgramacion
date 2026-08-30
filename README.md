@@ -115,10 +115,10 @@ src/main/java/com/denisyeyson/
 
 **Estructura Condicional `switch-case`**
 
-| Sesión | Ejercicio                |                                         Código                                         |
-|:-------|:-------------------------|:--------------------------------------------------------------------------------------:|
-| 01.01  | Evaluación de postulante |  [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E01_EvaluarPostulante.java)  |
-| 01.02  | Conversion de monedas    | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E02_CotizacionDolarEuro.java) |
+| Sesión | Ejercicio                                    |                                         Código                                         |
+|:-------|:---------------------------------------------|:--------------------------------------------------------------------------------------:|
+| 01.01  | Evaluación de postulante                     |  [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E01_EvaluarPostulante.java)  |
+| 01.02  | Conversion de monedas soles, dolares y euros | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E02_CotizacionDolarEuro.java) |
 
 
 ## Plan de avance
@@ -128,7 +128,7 @@ src/main/java/com/denisyeyson/
 |   01   |    ✅    |    ✅    | Completada |
 |   02   |    ✅    |    ✅    | Completada |
 |   03   |    ✅    |    ✅    | Completada |
-|   04   |    ✅    |    ✅    | Completada |
+|   04   |    ✅    |    ⬜    | Pendiente  |
 |   05   |    ⬜    |    ⬜    | Pendiente  |
 |   06   |    ⬜    |    ⬜    | Pendiente  |
 |   07   |    ⬜    |    ⬜    | Pendiente  |
