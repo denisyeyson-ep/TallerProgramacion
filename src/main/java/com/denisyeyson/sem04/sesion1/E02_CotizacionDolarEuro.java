@@ -16,6 +16,8 @@ public class E02_CotizacionDolarEuro {
         Scanner entrada = new Scanner(System.in);
         char monedaOrigen, monedaDestino;
         double montoIngresado, montoConvertido;
+        final double VALOR_DOLAR=3.82;
+        final double VALOR_EURO=4.17;
 
         System.out.println("CONVERSION DE MONEDAS:");
 
@@ -43,12 +45,12 @@ public class E02_CotizacionDolarEuro {
 
         //Concatena las dos monedas y evalúa la conversion
         montoConvertido = switch (monedaOrigen + String.valueOf(monedaDestino)) {
-            case "DS" -> montoIngresado * 3.82;//Conversion de Dólar a Soles
-            case "ES" -> montoIngresado * 4.17;//Conversion de Euro a Soles
-            case "SD" -> montoIngresado / 3.82;//Conversion de Soles a Dólar
-            case "SE" -> montoIngresado / 4.17;//Conversion de Soles a Euro
-            case "DE" -> (montoIngresado * 3.82) / 4.17;//Conversion de Dólar a Euro
-            case "ED" -> (montoIngresado * 4.17) / 3.82;//Conversion de Euro a Dólar
+            case "DS" -> montoIngresado * VALOR_DOLAR;//Conversion de Dólar a Soles
+            case "ES" -> montoIngresado * VALOR_EURO;//Conversion de Euro a Soles
+            case "SD" -> montoIngresado / VALOR_DOLAR;//Conversion de Soles a Dólar
+            case "SE" -> montoIngresado / VALOR_EURO;//Conversion de Soles a Euro
+            case "DE" -> (montoIngresado * VALOR_DOLAR) / VALOR_EURO;//Conversion de Dólar a Euro
+            case "ED" -> (montoIngresado * VALOR_EURO) / VALOR_DOLAR;//Conversion de Euro a Dólar
             default -> 0.00;
         };
 
