@@ -26,21 +26,25 @@ public class E01_EvaluarPostulante {
         System.out.print("Ingrese la puntuación del candidato (0-10): ");
         puntuacion = entrada.nextInt();
 
-        //Evaluamos según el rango de valores
-        descripcionEvaluacion = switch (puntuacion){
-            case 0,1,2,3,4 -> "Descartado";
-            case 5 -> "En suspenso";
-            case 6 -> "Aceptable";
-            case 7, 8 -> "Notable";
-            case 9, 10 -> "Sobresaliente";
-            default -> "Puntuación no valida";
-        };
+        if(puntuacion >= 0 && puntuacion <= 10) {
+            //Evaluamos según el rango de valores
+            descripcionEvaluacion = switch (puntuacion){
+                case 0,1,2,3,4 -> "Descartado";
+                case 5 -> "En suspenso";
+                case 6 -> "Aceptable";
+                case 7, 8 -> "Notable";
+                case 9, 10 -> "Sobresaliente";
+                default -> "Puntuación no valida";
+            };
 
-        System.out.printf("""
+            System.out.printf("""
                 Resultado:
                 Puntuación\t: %d
                 Descripción\t: %s
                 """,puntuacion, descripcionEvaluacion);
+        }else{
+            System.err.println("Error, solo se aceptan valores entre 0 y 10.");
+        }
 
         entrada.close();
     }
