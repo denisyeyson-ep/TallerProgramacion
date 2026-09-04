@@ -10,11 +10,15 @@ public class A03_SwitchMejorado2 {
     private static final int DIVIDIR = 4;
     private static final int SALIR = 5;
 
+    /**
+     * Actividad 3: Switch mejorado 2
+     * Calculadora básica con switch mejorado
+     */
     static void main() {
         Scanner teclado = new Scanner(System.in);
         double numero1, numero2, resultado = 0;
 
-        System.out.println("""
+        IO.println("""
                 +------------------------------+
                 |      CALCULADORA BÁSICA      |
                 +------------------------------+
@@ -25,18 +29,24 @@ public class A03_SwitchMejorado2 {
                 5. Salir
                 """);
 
-        System.out.print("Seleccione una opción: ");
-        if (!teclado.hasNextInt()) {//Válida que ingrese solo números enteros
-            System.err.println("Error: Debe ingresar un número entero válido.");
-            return;
-        }
+        IO.print("Seleccione una opción: ");
+
         int opcion = teclado.nextInt();
 
         if (opcion >= SUMAR && opcion <= DIVIDIR) {
-            System.out.print("Ingrese el primer número: ");
+
+            IO.print("Ingrese el primer número: ");
+            if (!teclado.hasNextDouble()) {//Válida que ingrese solo números enteros
+                System.err.println("Error: Debe ingresar un número entero válido.");
+                return;
+            }
             numero1 = teclado.nextDouble();
 
-            System.out.print("Ingrese el segundo número: ");
+            IO.print("Ingrese el segundo número: ");
+            if (!teclado.hasNextDouble()) {//Válida que ingrese solo números enteros
+                System.err.println("Error: Debe ingresar un número entero válido.");
+                return;
+            }
             numero2 = teclado.nextDouble();
 
             switch (opcion) {
@@ -48,25 +58,26 @@ public class A03_SwitchMejorado2 {
                         resultado = (numero1 / numero2);
                     } else {
                         System.err.println("No se puede dividir entre cero.");
-                        System.exit(0);//Al detectar el error se sale del programa
+                        System.exit(0);//Al detectar el error, sale del programa
                     }
                 }
-                default -> System.out.println("Opción no válida.");
+                default -> IO.println("Opción no válida.");
             }
-            mostrarResultado(opcion, numero1, numero2, resultado);
+
+            IO.println("%s %s %s = %s".
+                    formatted(formatearNumero(numero1),
+                            caracterOperacion(opcion),
+                            formatearNumero(numero2),
+                            formatearNumero(resultado)
+                    )
+            );
+
         } else if (opcion == SALIR) {
-            System.out.println("Programa finalizado.");
+            IO.println("Programa finalizado.");
         } else {
             System.err.println("Opción no válida, ingrese solo las opciones del menú.");
         }
-
         teclado.close();
-    }
-
-    static void mostrarResultado(int opcion, double numero1, double numero2, double resultado) {
-        System.out.printf("""
-                %.2f %s %.2f = %.2f
-                """, numero1, caracterOperacion(opcion), numero2, resultado);
     }
 
     static char caracterOperacion(int opcion) {
@@ -77,5 +88,13 @@ public class A03_SwitchMejorado2 {
             case DIVIDIR -> '÷';
             default -> ' ';
         };
+    }
+
+    static String formatearNumero(double valor) {
+        if (valor % 1 == 0) {
+            return "%.0f".formatted(valor); // Muestra solo el entero
+        } else {
+            return "%.2f".formatted(valor); // Muestra con 2 decimales
+        }
     }
 }

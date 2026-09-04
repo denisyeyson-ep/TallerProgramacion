@@ -115,11 +115,19 @@ src/main/java/com/denisyeyson/
 
 **Estructura Condicional `switch-case`**
 
-| Sesión | Ejercicio                                    |                                         Código                                         |
-|:-------|:---------------------------------------------|:--------------------------------------------------------------------------------------:|
-| 01.01  | Evaluación de postulante                     |  [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E01_EvaluarPostulante.java)  |
-| 01.02  | Conversion de monedas soles, dolares y euros | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E02_CotizacionDolarEuro.java) |
+| Sesión | Ejercicio                                    |                                          Código                                           |
+|:-------|:---------------------------------------------|:-----------------------------------------------------------------------------------------:|
+| 01.01  | Evaluación de postulante                     |   [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E01_EvaluarPostulante.java)    |
+| 01.02  | Conversion de monedas soles, dolares y euros |  [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E02_CotizacionDolarEuro.java)   |
+| 02.01  | Obtener mención alumno                       |     [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E01_AlumnoMencion.java)      |
+| 02.02  | Conversion de numero entero a romano         | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E02_ConvertirEnteroRomanos.java) |
+| 02.03  | Validar nota Alumno v1                       |    [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E03_01_AlumnoNotaV1.java)     |
+| 02.04  | Validar nota Alumno v2                       |    [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E03_02_AlumnoNotaV2.java)     |
+| 02.05  | convertir temperaturas                       |      [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A01_MenuOpciones.java)      |
+| 02.06  | Validar tipo carácter                        |     [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A02_SwitchMejorado.java)     |
+| 02.07  | Calculadora básica                           |    [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A03_SwitchMejorado2.java)     |
 
+[Volver al contenido](#contenido)
 
 ## Plan de avance
 
@@ -128,7 +136,7 @@ src/main/java/com/denisyeyson/
 |   01   |    ✅    |    ✅    | Completada |
 |   02   |    ✅    |    ✅    | Completada |
 |   03   |    ✅    |    ✅    | Completada |
-|   04   |    ✅    |    ⬜    | Pendiente  |
+|   04   |    ✅    |    ✅    | Completada |
 |   05   |    ⬜    |    ⬜    | Pendiente  |
 |   06   |    ⬜    |    ⬜    | Pendiente  |
 |   07   |    ⬜    |    ⬜    | Pendiente  |
