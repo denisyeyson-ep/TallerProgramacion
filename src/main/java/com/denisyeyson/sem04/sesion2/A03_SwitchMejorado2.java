@@ -61,7 +61,7 @@ public class A03_SwitchMejorado2 {
                         System.exit(0);//Al detectar el error, sale del programa
                     }
                 }
-                default -> IO.println("Opción no válida.");
+                //default -> IO.println("Opción no válida.");
             }
 
             IO.println("%s %s %s = %s".

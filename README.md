@@ -58,6 +58,7 @@ src/main/java/com/denisyeyson/
 - [Semana 2: Estructuras secuenciales](#semana-2)
 - [Semana 3: Estructura condicional `if-else`](#semana-3)
 - [Semana 4: Estructura Condicional `switch-case`](#semana-4)
+- [Semana 5: Repaso de problemas con `if-else` y `switch-case`](#semana-5)
 
 ## Ejercicios
 
@@ -115,17 +116,29 @@ src/main/java/com/denisyeyson/
 
 **Estructura Condicional `switch-case`**
 
-| Sesión | Ejercicio                                    |                                          Código                                           |
-|:-------|:---------------------------------------------|:-----------------------------------------------------------------------------------------:|
-| 01.01  | Evaluación de postulante                     |   [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E01_EvaluarPostulante.java)    |
-| 01.02  | Conversion de monedas soles, dolares y euros |  [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E02_CotizacionDolarEuro.java)   |
-| 02.01  | Obtener mención alumno                       |     [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E01_AlumnoMencion.java)      |
+| Sesión | Ejercicio                                    | Código                                                                                    |
+|:-------|:---------------------------------------------|:------------------------------------------------------------------------------------------|
+| 01.01  | Evaluación de postulante                     | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E01_EvaluarPostulante.java)      |
+| 01.02  | Conversion de monedas soles, dolares y euros | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion1/E02_CotizacionDolarEuro.java)    |
+| 02.01  | Obtener mención alumno                       | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E01_AlumnoMencion.java)          |
 | 02.02  | Conversion de numero entero a romano         | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E02_ConvertirEnteroRomanos.java) |
-| 02.03  | Validar nota Alumno v1                       |    [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E03_01_AlumnoNotaV1.java)     |
-| 02.04  | Validar nota Alumno v2                       |    [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E03_02_AlumnoNotaV2.java)     |
-| 02.05  | convertir temperaturas                       |      [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A01_MenuOpciones.java)      |
-| 02.06  | Validar tipo carácter                        |     [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A02_SwitchMejorado.java)     |
-| 02.07  | Calculadora básica                           |    [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A03_SwitchMejorado2.java)     |
+| 02.03  | Validar nota Alumno v1                       | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E03_01_AlumnoNotaV1.java)        |
+| 02.04  | Validar nota Alumno v2                       | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/E03_02_AlumnoNotaV2.java)        |
+| 02.05  | convertir temperaturas                       | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A01_MenuOpciones.java)           |
+| 02.06  | Validar tipo carácter                        | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A02_SwitchMejorado.java)         |
+| 02.07  | Calculadora básica                           | [Abrir main](src/main/java/com/denisyeyson/sem04/sesion2/A03_SwitchMejorado2.java)        |
+
+[Volver al contenido](#contenido)
+
+### Semana 5
+
+**Repaso de problemas con `if-else` y `switch-case`**
+
+| Sesión | Ejercicio                      | Código                                                                               |
+|:-------|:-------------------------------|:-------------------------------------------------------------------------------------|
+| 01.01  | Menu de Calcular areas         | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E01_MenuCalcularAreas.java) |
+| 01.02  | Buscar conincidencias en texto | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E02_BusquedaPalabras.java)  |
+| 01.03  | Tienda de celulares            | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E03_TiendaCelulares.java)   |
 
 [Volver al contenido](#contenido)
 
@@ -137,7 +150,7 @@ src/main/java/com/denisyeyson/
 |   02   |    ✅    |    ✅    | Completada |
 |   03   |    ✅    |    ✅    | Completada |
 |   04   |    ✅    |    ✅    | Completada |
-|   05   |    ⬜    |    ⬜    | Pendiente  |
+|   05   |    ✅    |    ⬜    | Pendiente  |
 |   06   |    ⬜    |    ⬜    | Pendiente  |
 |   07   |    ⬜    |    ⬜    | Pendiente  |
 |   08   |    ⬜    |    ⬜    | Pendiente  |
