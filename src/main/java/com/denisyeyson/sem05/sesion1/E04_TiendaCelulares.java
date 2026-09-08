@@ -2,10 +2,10 @@ package com.denisyeyson.sem05.sesion1;
 
 import java.util.Scanner;
 
-public class E03_TiendaCelulares {
+public class E04_TiendaCelulares {
 
     /**
-     * Ejercicio 3
+     * Ejercicio 4
      * Una tienda de celulares ofrece distintos planes tarifarios en función de la marca que se compre,
      * así como descuentos aplicados de acuerdo con el plazo de pago promocional escogido (ver tablas).
      * Escribe un programa en Java que solicite al usuario la marca del celular y el plazo de pago,
