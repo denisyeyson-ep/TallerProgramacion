@@ -19,18 +19,17 @@ public class A03_SwitchMejorado2 {
         double numero1, numero2, resultado = 0;
 
         IO.println("""
-                +------------------------------+
-                |      CALCULADORA BÁSICA      |
-                +------------------------------+
-                1. Sumar\t\t(+)
-                2. Restar\t\t(-)
-                3. Multiplicar\t(*)
-                4. Dividir\t\t(÷)
-                5. Salir
-                """);
-
-        IO.print("Seleccione una opción: ");
-
+                +------------------------+
+                |   CALCULADORA BÁSICA   |
+                +------------------------+
+                | 1. Sumar          (+)  |
+                | 2. Restar         (-)  |
+                | 3. Multiplicar    (*)  |
+                | 4. Dividir        (÷)  |
+                | 5. Salir               |
+                +------------------------+
+                
+                Seleccione una opción:\s""");
         int opcion = teclado.nextInt();
 
         if (opcion >= SUMAR && opcion <= DIVIDIR) {

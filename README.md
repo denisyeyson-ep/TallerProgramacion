@@ -134,12 +134,14 @@ src/main/java/com/denisyeyson/
 
 **Repaso de problemas con `if-else` y `switch-case`**
 
-| Sesión | Ejercicio                       | Código                                                                                   |
-|:-------|:--------------------------------|:-----------------------------------------------------------------------------------------|
-| 01.01  | Menu de Calcular areas          | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E01_MenuCalcularAreas.java)     |
-| 01.02  | Buscar conincidencias en texto  | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E02_BusquedaPalabras.java)      |
-| 01.03  | Menu de Calcular areas mejorado | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E03_CalcularAreasMejorado.java) |
-| 01.04  | Tienda de celulares             | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E04_TiendaCelulares.java)       |
+| Sesión | Ejercicio                                    | Código                                                                                               |
+|:-------|:---------------------------------------------|:-----------------------------------------------------------------------------------------------------|
+| 01.01  | Menu de Calcular areas                       | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E01_MenuCalcularAreas.java)                 |
+| 01.02  | Buscar conincidencias en texto               | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E02_BusquedaPalabras.java)                  |
+| 01.03  | Menu de Calcular areas mejorado              | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E03_CalcularAreasMejorado.java)             |
+| 01.04  | Tienda de celulares                          | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E04_TiendaCelulares.java)                   |
+| 01.05  | Tienda de articulos tecnologicos             | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/T01_TiendaArticulos.java)                   |
+| 01.06  | Automatizacion de calculo de estacionamiento | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/T02_AutomatizarCalculoEstacionamiento.java) |
 
 [Volver al contenido](#contenido)
 
