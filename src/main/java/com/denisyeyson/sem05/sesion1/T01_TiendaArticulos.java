@@ -14,7 +14,7 @@ public class T01_TiendaArticulos {
      *     <li>Si el monto es mayor a S/ 500.00 y menor o igual a S/ 1000.00, recibe un descuento del 10%.</li>
      *     <li>Si el monto es mayor a S/ 1000.00, recibe un descuento del 15%.</li>
      * </ul>
-     *
+     * <p>
      * Si el usuario ingresa un monto negativo, el programa deberá mostrar el mensaje <b><i>"MONTO NO VÁLIDO"</i></b> y no deberá realizar ningún cálculo.<br>
      * Se debe mostrar el monto de la compra, porcentaje de descuento aplicado, monto descontado y total a pagar.
      */

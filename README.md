@@ -142,6 +142,9 @@ src/main/java/com/denisyeyson/
 | 01.04  | Tienda de celulares                          | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/E04_TiendaCelulares.java)                   |
 | 01.05  | Tienda de articulos tecnologicos             | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/T01_TiendaArticulos.java)                   |
 | 01.06  | Automatizacion de calculo de estacionamiento | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion1/T02_AutomatizarCalculoEstacionamiento.java) |
+| 02.01  | Evaluar temperatura                          | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion2/PC_Ejercicio01.java)                        |
+| 02.02  | Evaluar desempeño trabajador                 | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion2/PC_Ejercicio02.java)                        |
+| 02.03  | Automatizar facturación                      | [Abrir main](src/main/java/com/denisyeyson/sem05/sesion2/PC_Ejercicio03.java)                        |
 
 [Volver al contenido](#contenido)
 
@@ -153,7 +156,7 @@ src/main/java/com/denisyeyson/
 |   02   |    ✅    |    ✅    | Completada |
 |   03   |    ✅    |    ✅    | Completada |
 |   04   |    ✅    |    ✅    | Completada |
-|   05   |    ✅    |    ⬜    | Pendiente  |
+|   05   |    ✅    |    ✅    | Completada |
 |   06   |    ⬜    |    ⬜    | Pendiente  |
 |   07   |    ⬜    |    ⬜    | Pendiente  |
 |   08   |    ⬜    |    ⬜    | Pendiente  |
