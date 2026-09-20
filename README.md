@@ -59,6 +59,7 @@ src/main/java/com/denisyeyson/
 - [Semana 3: Estructura condicional `if-else`](#semana-3)
 - [Semana 4: Estructura Condicional `switch-case`](#semana-4)
 - [Semana 5: Repaso de problemas con `if-else` y `switch-case`](#semana-5)
+- [Semana 6: Estructura repetitiva `while`](#semana-6)
 
 ## Ejercicios
 
@@ -148,6 +149,22 @@ src/main/java/com/denisyeyson/
 
 [Volver al contenido](#contenido)
 
+### Semana 6
+
+**Estructura repetitiva `while`**
+
+| Sesión | Ejercicio                   | Código                                                                                      |
+|:-------|:----------------------------|:--------------------------------------------------------------------------------------------|
+| 01.01  | Validar codigo estudiante   | [Abrir main](src/main/java/com/denisyeyson/sem06/sesion1/E01_ValidarCodigo.java)            |
+| 02.01  | Validar respuesta (SÍ,NO)   | [Abrir main](src/main/java/com/denisyeyson/sem06/sesion2/E01_ValidarRespuesta.java)         |
+| 02.02  | Evaluar promedio            | [Abrir main](src/main/java/com/denisyeyson/sem06/sesion2/E02_EvaluarPromedio.java)          |
+| 02.03  | Validar correo y contraseña | [Abrir main](src/main/java/com/denisyeyson/sem06/sesion2/E03_EmailAndPassword.java)         |
+| 02.04  | Registro de usuarios        | [Abrir main](src/main/java/com/denisyeyson/sem06/sesion2/A01_RegistroUsuarios.java)         |
+| 02.05  | Serie Fibonacci             | [Abrir main](src/main/java/com/denisyeyson/sem06/sesion2/A02_SerieFibonacci.java)           |
+| 02.06  | Tabla multiplicar           | [Abrir main](src/main/java/com/denisyeyson/sem06/sesion2/A03_ImprimirTablaMultiplicar.java) |
+
+[Volver al contenido](#contenido)
+
 ## Plan de avance
 
 | Semana | Sesión 1 | Sesión 2 |   Estado   |
@@ -157,7 +174,7 @@ src/main/java/com/denisyeyson/
 |   03   |    ✅    |    ✅    | Completada |
 |   04   |    ✅    |    ✅    | Completada |
 |   05   |    ✅    |    ✅    | Completada |
-|   06   |    ⬜    |    ⬜    | Pendiente  |
+|   06   |    ✅    |    ✅    | Completada |
 |   07   |    ⬜    |    ⬜    | Pendiente  |
 |   08   |    ⬜    |    ⬜    | Pendiente  |
 |   09   |    ⬜    |    ⬜    | Pendiente  |
