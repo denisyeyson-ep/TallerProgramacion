@@ -60,6 +60,7 @@ src/main/java/com/denisyeyson/
 - [Semana 4: Estructura Condicional `switch-case`](#semana-4)
 - [Semana 5: Repaso de problemas con `if-else` y `switch-case`](#semana-5)
 - [Semana 6: Estructura repetitiva `while`](#semana-6)
+- [Semana 7: Estructura repetitiva `do-while`](#semana-7)
 
 ## Ejercicios
 
@@ -165,17 +166,38 @@ src/main/java/com/denisyeyson/
 
 [Volver al contenido](#contenido)
 
+### Semana 7
+
+**Estructura repetitiva `do-while`**
+
+| Sesión | Ejercicio                   | Código                                                                                  |
+|:-------|:----------------------------|:----------------------------------------------------------------------------------------|
+| 01.01  | Uso del validador           | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion1/E01_UsoValidador.java)         |
+| 01.02  | Dia de la semana            | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion1/E02_DiaSemana.java)            |
+| 01.03  | Menu de notas               | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion1/E03_MenuNotas.java)            |
+| 01.04  | Es primo o factorial?       | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion1/E04_PrimoFactorial.java)       |
+| 02.01  | Menu Empleado sueldo        | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/E01_InfoEmpleado.java)         |
+| 02.02  | Decimal a Binario           | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/E02_DecimalABinario.java)      |
+| 02.03  | Generador patron triangular | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/E03_GeneradorPatron.java)      |
+| 02.04  | Contador progresivo         | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/T01_ContadorProgresivo.java)   |
+| 02.05  | Contador regresivo          | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/T02_ContadorRegresivo.java)    |
+| 02.06  | Acumulador progresivo       | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/T03_AcumuladorProgresivo.java) |
+| 02.07  | Acumulador y contador       | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/T04_AcumuladorYContador.java)  |
+| 02.08  | Menu interactivo            | [Abrir main](src/main/java/com/denisyeyson/sem07/sesion2/T05_MenuInteractivo.java)      |
+
+[Volver al contenido](#contenido)
+
 ## Plan de avance
 
 | Semana | Sesión 1 | Sesión 2 |   Estado   |
 |:------:|:--------:|:--------:|:----------:|
-|   01   |    ✅    |    ✅    | Completada |
-|   02   |    ✅    |    ✅    | Completada |
-|   03   |    ✅    |    ✅    | Completada |
-|   04   |    ✅    |    ✅    | Completada |
-|   05   |    ✅    |    ✅    | Completada |
-|   06   |    ✅    |    ✅    | Completada |
-|   07   |    ⬜    |    ⬜    | Pendiente  |
+|   01   |    ✅    |    ✅    | Completado |
+|   02   |    ✅    |    ✅    | Completado |
+|   03   |    ✅    |    ✅    | Completado |
+|   04   |    ✅    |    ✅    | Completado |
+|   05   |    ✅    |    ✅    | Completado |
+|   06   |    ✅    |    ✅    | Completado |
+|   07   |    ✅    |    ✅    | Completado |
 |   08   |    ⬜    |    ⬜    | Pendiente  |
 |   09   |    ⬜    |    ⬜    | Pendiente  |
 |   10   |    ⬜    |    ⬜    | Pendiente  |
