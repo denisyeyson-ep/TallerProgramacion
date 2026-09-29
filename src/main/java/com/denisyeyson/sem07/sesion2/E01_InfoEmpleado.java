@@ -1,6 +1,6 @@
 package com.denisyeyson.sem07.sesion2;
 
-import com.denisyeyson.sem07.tool.ReporteASCII;
+import com.denisyeyson.tool.ReporteASCII;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

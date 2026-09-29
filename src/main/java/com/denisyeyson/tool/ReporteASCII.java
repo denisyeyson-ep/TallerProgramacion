@@ -1,4 +1,4 @@
-package com.denisyeyson.sem07.tool;
+package com.denisyeyson.tool;
 
 public class ReporteASCII {
     public int anchoMaximo;

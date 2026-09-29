@@ -260,6 +260,16 @@ Después ejecútala con:
 java -cp out com.denisyeyson.sem03.sesion2.T04_02_CalculoRaizPotencia
 ```
 
+Puedes ejecutar desde la terminal, después de compilar con gradle 
+
+```bash
+cd /media/denisyeyson/Compartido/Proyectos/UTP/TallerProgramacion
+
+tree build/classes/java/main/com/denisyeyson/sem08
+
+java -cp build/classes/java/main com.denisyeyson.sem08.sesion2.E03_Votaciones
+```
+
 ## Estructura utilizada en los ejercicios
 
 En los ejercicios orientados a objetos se separan dos responsabilidades:
