@@ -61,6 +61,7 @@ src/main/java/com/denisyeyson/
 - [Semana 5: Repaso de problemas con `if-else` y `switch-case`](#semana-5)
 - [Semana 6: Estructura repetitiva `while`](#semana-6)
 - [Semana 7: Estructura repetitiva `do-while`](#semana-7)
+- [Semana 8: Estructura repetitiva `for` y `foreach`](#semana-8)
 
 ## Ejercicios
 
@@ -187,6 +188,24 @@ src/main/java/com/denisyeyson/
 
 [Volver al contenido](#contenido)
 
+### Semana 8
+
+**Estructura repetitiva `for` y `foreach`**
+
+| Sesión | Ejercicio                | Código                                                                                     |
+|:-------|:-------------------------|:-------------------------------------------------------------------------------------------|
+| 01.01  | Progresion aritmetica    | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion1/E01_ProgresionAritmetica.java)    |
+| 02.01  | Reporte Salario Empleado | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/E01_ReporteEmpleado.java)         |
+| 02.02  | Serie Fibonacci          | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/E02_SerieFibonacci.java)          |
+| 02.03  | Votaciones               | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/E03_Votaciones.java)              |
+| 02.04  | Contador Progresivo      | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/T01_ContadorProgresivo.java)      |
+| 02.05  | Contador y Acumulador    | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/T02_ContadorAcumulador.java)      |
+| 02.06  | Tabla ASCCI              | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/T03_TablaASCCI.java)              |
+| 02.07  | Tabla multiplicar        | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/T04_TablaMultiplicar.java)        |
+| 02.08  | Registro Calificaciones  | [Abrir main](src/main/java/com/denisyeyson/sem08/sesion2/T05_RegistrarCalificaciones.java) |
+
+[Volver al contenido](#contenido)
+
 ## Plan de avance
 
 | Semana | Sesión 1 | Sesión 2 |   Estado   |
@@ -198,7 +217,7 @@ src/main/java/com/denisyeyson/
 |   05   |    ✅    |    ✅    | Completado |
 |   06   |    ✅    |    ✅    | Completado |
 |   07   |    ✅    |    ✅    | Completado |
-|   08   |    ⬜    |    ⬜    | Pendiente  |
+|   08   |    ✅    |    ✅    | Completado |
 |   09   |    ⬜    |    ⬜    | Pendiente  |
 |   10   |    ⬜    |    ⬜    | Pendiente  |
 |   11   |    ⬜    |    ⬜    | Pendiente  |
