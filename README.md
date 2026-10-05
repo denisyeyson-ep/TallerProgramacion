@@ -62,6 +62,7 @@ src/main/java/com/denisyeyson/
 - [Semana 6: Estructura repetitiva `while`](#semana-6)
 - [Semana 7: Estructura repetitiva `do-while`](#semana-7)
 - [Semana 8: Estructura repetitiva `for` y `foreach`](#semana-8)
+- [Semana 9: Arrays unidimensionales](#semana-9)
 
 ## Ejercicios
 
@@ -206,6 +207,21 @@ src/main/java/com/denisyeyson/
 
 [Volver al contenido](#contenido)
 
+### Semana 9
+
+**Arrays unidimensionales**
+
+| Sesión | Ejercicio                  | Código                                                                                      |
+|:-------|:---------------------------|:--------------------------------------------------------------------------------------------|
+| 01.01  | Vector Repetitivo          | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion1/E01_VectorRepetitivo.java)         |
+| 02.01  | Arreglos Paralelos         | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/E01_ArreglosParalelos.java)        |
+| 02.02  | Reporte Boleta             | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/E02_ReporteBoleta.java)            |
+| 02.03  | Ordenamiento Burbuja       | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/T01_OrdenamientoBurbuja.java)      |
+| 02.04  | Reporte Arreglos Paralelos | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/T02_ReporteArreglosParalelos.java) |
+| 02.05  | Copia Arreglos             | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/T03_CopiaArreglos.java)            |
+
+[Volver al contenido](#contenido)
+
 ## Plan de avance
 
 | Semana | Sesión 1 | Sesión 2 |   Estado   |
@@ -218,7 +234,7 @@ src/main/java/com/denisyeyson/
 |   06   |    ✅    |    ✅    | Completado |
 |   07   |    ✅    |    ✅    | Completado |
 |   08   |    ✅    |    ✅    | Completado |
-|   09   |    ⬜    |    ⬜    | Pendiente  |
+|   09   |    ✅    |    ✅    | Completado |
 |   10   |    ⬜    |    ⬜    | Pendiente  |
 |   11   |    ⬜    |    ⬜    | Pendiente  |
 |   12   |    ⬜    |    ⬜    | Pendiente  |
