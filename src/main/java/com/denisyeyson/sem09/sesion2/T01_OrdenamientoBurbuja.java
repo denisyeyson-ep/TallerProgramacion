@@ -18,7 +18,7 @@ public class T01_OrdenamientoBurbuja {
         System.out.println("\n--- MENU DE ORDENAMIENTO ---");
         System.out.println("1. Ordenar de forma Ascendente");
         System.out.println("2. Ordenar de forma Descendente");
-        System.out.print("Seleccione una opcion: ");
+        System.out.print("Seleccione una opción: ");
         int opcion = scanner.nextInt();
 
         // Algoritmo de Ordenamiento (Burbuja)

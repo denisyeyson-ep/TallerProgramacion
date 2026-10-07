@@ -12,14 +12,14 @@ public class T03_CopiaArreglos {
 
         // Lectura del arreglo original
         for (int i = 0; i < n; i++) {
-            System.out.print("Ingrese el valor entero para la posicion [" + i + "]: ");
+            System.out.print("Ingrese el valor entero para la posición [" + i + "]: ");
             original[i] = scanner.nextInt();
         }
 
         System.out.println("\n--- MENU DE COPIA DE ARREGLOS ---");
         System.out.println("1. Copia TOTAL");
         System.out.println("2. Copia PARCIAL (Por Rango)");
-        System.out.print("Seleccione una opcion: ");
+        System.out.print("Seleccione una opción: ");
         int opcion = scanner.nextInt();
 
         int[] copia;
@@ -27,9 +27,7 @@ public class T03_CopiaArreglos {
         if (opcion == 1) {
             // Copia total del arreglo
             copia = new int[original.length];
-            for (int i = 0; i < original.length; i++) {
-                copia[i] = original[i];
-            }
+            System.arraycopy(original, 0, copia, 0, original.length);
             System.out.println("\n-> Se ha realizado la COPIA TOTAL del arreglo.");
 
         } else if (opcion == 2) {
@@ -41,30 +39,28 @@ public class T03_CopiaArreglos {
 
             // Validación rápida de rangos
             if (inicio < 0 || fin >= n || inicio > fin) {
-                System.out.println("Indices invalidos. Se asignara un arreglo vacio por defecto.");
+                System.out.println("Indices inválidos. Se asignara un arreglo vacío por defecto.");
                 copia = new int[0];
             } else {
                 int tamanioCopia = (fin - inicio) + 1;
                 copia = new int[tamanioCopia];
 
-                for (int i = 0; i < tamanioCopia; i++) {
-                    copia[i] = original[inicio + i];
-                }
-                System.out.println("\n-> Se ha realizado la COPIA PARCIAL desde la posicion ["
+                System.arraycopy(original, inicio, copia, 0, tamanioCopia);
+                System.out.println("\n-> Se ha realizado la COPIA PARCIAL desde la posición ["
                         + inicio + "] hasta [" + fin + "].");
             }
         } else {
-            System.out.println("Opcion no valida.");
+            System.out.println("Opción no valida.");
             copia = new int[0];
         }
 
         // Mostrar el arreglo resultante
         System.out.println("\nArreglo Resultante:");
         if (copia.length == 0) {
-            System.out.println("[ Arreglo Vacio ]");
+            System.out.println("[ Arreglo Vacío ]");
         } else {
-            for (int i = 0; i < copia.length; i++) {
-                System.out.print("[" + copia[i] + "] ");
+            for (int j : copia) {
+                System.out.print("[" + j + "] ");
             }
             System.out.println();
         }
