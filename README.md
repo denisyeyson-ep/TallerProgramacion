@@ -63,8 +63,9 @@ src/main/java/com/denisyeyson/
 - [Semana 7: Estructura repetitiva `do-while`](#semana-7)
 - [Semana 8: Estructura repetitiva `for` y `foreach`](#semana-8)
 - [Semana 9: Arrays unidimensionales](#semana-9)
-- [Semana 10: PC2](#semana-10)
+- [Semana 10: Práctica Calificada 2](#semana-10)
 - [Semana 11: Arrays bidimensionales](#semana-11)
+- [Semana 12: Introducción a la Programación Orientada a Objetos](#semana-12)
 
 ## Ejercicios
 
@@ -227,16 +228,13 @@ src/main/java/com/denisyeyson/
 
 ### Semana 10
 
-**PC2**
+**Práctica Calificada 2**
 
-| Sesión | Ejercicio                  | Código                                                                                      |
-|:-------|:---------------------------|:--------------------------------------------------------------------------------------------|
-| 01.01  | Vector Repetitivo          | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion1/E01_VectorRepetitivo.java)         |
-| 02.01  | Arreglos Paralelos         | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/E01_ArreglosParalelos.java)        |
-| 02.02  | Reporte Boleta             | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/E02_ReporteBoleta.java)            |
-| 02.03  | Ordenamiento Burbuja       | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/T01_OrdenamientoBurbuja.java)      |
-| 02.04  | Reporte Arreglos Paralelos | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/T02_ReporteArreglosParalelos.java) |
-| 02.05  | Copia Arreglos             | [Abrir main](src/main/java/com/denisyeyson/sem09/sesion2/T03_CopiaArreglos.java)            |
+| Sesión | Ejercicio     | Código                                                                       |
+|:-------|:--------------|:-----------------------------------------------------------------------------|
+| 02.01  | PC2_Pregunta1 | [Abrir main](src/main/java/com/denisyeyson/sem10/sesion2/PC2_Pregunta1.java) |
+| 02.02  | PC2_Pregunta2 | [Abrir main](src/main/java/com/denisyeyson/sem10/sesion2/PC2_Pregunta2.java) |
+| 02.03  | PC2_Pregunta3 | [Abrir main](src/main/java/com/denisyeyson/sem10/sesion2/PC2_Pregunta3.java) |
 
 [Volver al contenido](#contenido)
 
@@ -249,6 +247,20 @@ src/main/java/com/denisyeyson/
 | 01.01  | Operacion con matrices | [Abrir main](src/main/java/com/denisyeyson/sem11/sesion1/E01_OperacionMatrices.java) |
 | 02.01  | Reporte de matrices    | [Abrir main](src/main/java/com/denisyeyson/sem11/sesion2/E01_ReporteASCII.java)      |
 | 02.02  | Ordenar matrices       | [Abrir main](src/main/java/com/denisyeyson/sem11/sesion2/E02_OrdenarMatriz.java)     |
+
+[Volver al contenido](#contenido)
+
+### Semana 12
+
+**Introducción a la Programación Orientada a Objetos**
+
+| Sesión | Ejercicio      | Código                                                                       |
+|:-------|:---------------|:-----------------------------------------------------------------------------|
+| 01.01  | Clase canción  | [Abrir main](src/main/java/com/denisyeyson/sem12/sesion1/Cancion.java)       |
+| 01.02  | Clase Libro    | [Abrir main](src/main/java/com/denisyeyson/sem12/sesion1/Libro.java)         |
+| 02.01  | Clase Alumno   | [Abrir main](src/main/java/com/denisyeyson/sem12/sesion2/Alumno.java)        |
+| 02.02  | Prueba Alumno  | [Abrir main](src/main/java/com/denisyeyson/sem12/sesion2/PruebaAlumno.java)  |
+| 02.03  | Reporte Alumno | [Abrir main](src/main/java/com/denisyeyson/sem12/sesion2/ReporteAlumno.java) |
 
 [Volver al contenido](#contenido)
 
@@ -265,9 +277,9 @@ src/main/java/com/denisyeyson/
 |   07   |    ✅    |    ✅    | Completado |
 |   08   |    ✅    |    ✅    | Completado |
 |   09   |    ✅    |    ✅    | Completado |
-|   10   |    ⬜    |    ⬜    | Pendiente  |
+|   10   |    ✅    |    ✅    | Completado |
 |   11   |    ✅    |    ✅    | Completado |
-|   12   |    ⬜    |    ⬜    | Pendiente  |
+|   12   |    ✅    |    ✅    | Completado |
 |   13   |    ⬜    |    ⬜    | Pendiente  |
 |   14   |    ⬜    |    ⬜    | Pendiente  |
 |   15   |    ⬜    |    ⬜    | Pendiente  |
