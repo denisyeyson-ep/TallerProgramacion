@@ -2,7 +2,7 @@ package com.denisyeyson.sem05.sesion2;
 
 import java.util.Scanner;
 
-public class PC_Ejercicio03 {
+public class PC1_Pregunta3 {
 
     /**
      * <b><i>Practica 01: Ejercicio 03</i></b><br>

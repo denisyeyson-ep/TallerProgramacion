@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2d9f3; /* Fondo lila claro similar a la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor-tabla {
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-tabla {
+    background-color: #55c4a1; /* Color verde/agua marina característico */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: fit-content;
+    border-bottom-right-radius: 8px; /* Opcional para redondear ligeramente la esquina */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+    color: #222222;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-bottom: 2px solid #dddddd;
+}
+
+td {
+    padding: 15px 20px;
+    color: #333333;
+    vertical-align: middle;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
